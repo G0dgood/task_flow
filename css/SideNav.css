@@ -1,0 +1,243 @@
+.side-nav_sub_full{
+  width: 80%;
+  background-color: var(--white);
+height: 100vh;
+padding: 32px 20px; 
+border-right: 1px solid var(--Gray-5);
+position: absolute;
+ 
+}
+
+.side-nav_sub{ 
+  width: 25%;
+  background-color: var(--white);
+height: 100vh;
+padding: 32px 20px; 
+border-right: 1px solid var(--Gray-5);
+position: absolute; 
+}
+
+
+.side-nav_button{  
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+border: 1px solid var(--Gray-5 );
+background: var(--white) !important; 
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+position: absolute;
+right:  -14px; 
+top: 186px; 
+padding: 8px;
+}
+ 
+.side-nav_button:hover{  
+display: flex;
+justify-content: center !important;
+align-items: center !important;
+border-radius: 8px !important;
+border: 1px solid var(--Gray-5 ) !important;
+background: var(--Secondary-light) !important; 
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15) !important;
+position: absolute !important;
+right:  -14px !important; 
+top: 186px !important; 
+padding: 8px !important;
+}
+ 
+
+.side-nav_container{
+  padding: 43px 22px 419px 85px;
+
+}
+
+
+#side-nav {
+  width: 309px;
+ 
+  position: relative !important;
+  grid-area: sidenav !important;
+  background: var(--white);
+  border-right: 1px solid var(--Gray-5);  
+  display: inline-flex; 
+flex-direction: column; 
+overflow: hidden;
+}
+  
+.projects_card_container{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+
+.projects_card{
+  display: flex;
+width: 202px;
+height: 50px;
+padding: 8px;
+justify-content: space-between;
+align-items: center;
+border-radius: 8px;
+border : 1px solid var(--Gray-6);
+background-color: var(--white);
+}
+.projects_card_img{
+width: 24px;
+height: 24px;
+background-color: #EDEDED;
+border-radius: 24px; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.projects_card_img1{
+width: 35.2px;
+height:  35.2px;
+background-color: #EDEDED;
+border-radius: 24px; 
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+
+.projects_text{
+  color: var(--Gray-3); 
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+ 
+.projects_card_sup{
+  display: flex;  
+align-items: center;
+gap: 10px;
+}
+
+.projectx{
+  font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--Gray-1);
+}
+
+.projects_card_small{
+  width: 8px;
+height: 8px;
+border-radius: 10px;
+background-color: var(--Gray-6);
+ 
+}
+
+.projects_card_container_small{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon_array_active{
+display: flex;
+width: 200px;
+height: 40px;
+padding: 8px  ;
+align-items: center;
+gap: 16px; 
+border-radius: 8px;
+background: var(--Secondary-light); 
+color: var( --Secondary);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.icon_array_active2{
+display: flex; 
+height: 40px;
+padding: 8px;
+align-items: center;
+gap: 16px; 
+border-radius: 8px;
+background: var(--Secondary-light); 
+color: var( --Secondary);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.icon_array_none{
+  width: 200px;
+display: flex; 
+height: 40px;
+padding: 8px  ;
+align-items: center;
+gap: 16px; 
+border-radius: 8px; 
+color: var( --Neutral);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+cursor: pointer;
+}
+.icon_array_none :hover{   
+  width: 200px;   
+color: var( --Neutral);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: var(--Secondary-light); 
+}
+.icon_array_none2{
+
+display: flex; 
+height: 40px;
+padding: 8px;
+align-items: center;
+gap: 16px; 
+border-radius: 8px; 
+color: var( --Neutral);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+
+.icon_array_none_container :hover{
+  background: var(--Secondary-light) !important; 
+}
+
+ .logout{
+  color:#EB5757;
+  margin-top: 10rem;
+ }
+
+.icon_array{
+display: flex;
+height: 296px;
+flex-direction: column;
+align-items: flex-start; 
+gap: 20px;
+flex-shrink: 0;
+margin-top: 80px;
+}
+ 
+ 
+
+ 
+@media only screen and(min-width: 1200px){
+  #side-nav {
+    display: none !important;
+  } 
+}
+
+@media (max-width: 1200px) {
+  #side-nav {
+    display: none;
+  }
+}
