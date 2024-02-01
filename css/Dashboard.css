@@ -209,10 +209,10 @@ color: var(--Neutral);
 
 @media (max-width: 767px) {
   .progress_bar_bg {
-   	width: 247px;
+   	width: 70px;
   } 
   .progress_bar {
-    width: 50%;
+    width: 50px;
   }
 		.profilex_second_con_text_two{
 			display: none;
@@ -223,6 +223,6 @@ color: var(--Neutral);
    	width: 70px;
   } 
   .progress_bar {
-    width: 20%;
+    width: 50px;
   }
 }
